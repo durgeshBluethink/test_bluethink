@@ -9,7 +9,7 @@ public class Prime_no {
         int flag = 0;
         m=num/2;
         
-        for (int i = 2; i < m; i++) {
+        for (int i = 2; i <= m; i++) {
             if (num%i==0) {
                 System.out.print("this is not prime "+num);
                 flag=1;

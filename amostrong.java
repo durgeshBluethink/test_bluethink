@@ -7,10 +7,11 @@ public class amostrong {
         int num = sc.nextInt();
         System.out.println("this is number "+num);
         int temp=num;
-        int rem,sum=0;
+        int rem;
+        int sum=0;
         while (num!=0) {
             rem=num%10;
-             sum =sum+(rem*rem*rem);
+              sum =sum+(rem*rem*rem);
              num=num/10;            
         }
         if (temp==sum) {

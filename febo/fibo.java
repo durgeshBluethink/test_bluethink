@@ -1,3 +1,4 @@
+package febo;
 import java.util.Scanner;
 
 public class fibo {
@@ -5,13 +6,19 @@ public class fibo {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number:");
         int num = sc.nextInt();
-        System.out.println(num);
-        int a=0,b=1,c=0;
+        // System.out.println(num);
+        int a=0,b=1;
+        int count=0;
+        System.out.print(a+" " +b+" ");
         for (int i = 0; i < num; i++) {
-            System.out.println(a+" and "+b+" = "+c+" ");
-            c=a+b;
+            int c =a+b;;
             a=b;
             b=c;
+            count++;
+            if(count==num-1){
+                break;
+            }
+            System.out.print(c+" ");
     
         }
     }

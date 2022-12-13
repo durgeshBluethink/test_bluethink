@@ -21,6 +21,9 @@ public class Find_largest_no {
                     System.out.print("this is largest number: "+d);
                 }
             }
+            else{
+                System.out.print("this is largest number: "+c);
+            }
         }
         else if(b>c){
             if (b>d) {
