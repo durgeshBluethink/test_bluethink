@@ -9,11 +9,11 @@ public class amostrong_nth {
         int n = num;
         String s = String.valueOf(num);
         int digit = s.length();
-        int power = digit;
+        int  power = digit;
 
         int sum = 0;
 
-        while (n != 0) {
+        while (n > 0) {
             digit = n % 10;
             sum = sum + (int) Math.pow(digit, power);
             n = n / 10;

@@ -5,6 +5,7 @@ public class Factorial {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number:");
         int num = sc.nextInt();
+        if(num>0){
          int fact=1;
         for (int i = num; i>0; i--) {
 
@@ -13,4 +14,8 @@ public class Factorial {
         }
         System.out.println(fact);
     }
+    else{
+        System.out.println("not zero");
+    }
+}
 }

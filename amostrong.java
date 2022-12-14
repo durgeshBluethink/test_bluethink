@@ -9,7 +9,7 @@ public class amostrong {
         int temp=num;
         int rem;
         int sum=0;
-        while (num!=0) {
+        while (num>0) {
             rem=num%10;
               sum =sum+(rem*rem*rem);
              num=num/10;            

@@ -10,7 +10,7 @@ public class fibo_limt {
         int a=0,b=1;
         int count=0;
        
-        if(num!=0){
+        if(num>0){
             System.out.print(a+" " +b+" ");
         for (int i = 0; i <= num; i++) {
             int c =a+b;

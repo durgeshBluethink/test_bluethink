@@ -5,6 +5,7 @@ public class Find_grade {
         Scanner sc  = new  Scanner(System.in);
         System.out.print("Enter a Marks:");
             int  s= sc.nextInt();
+            if(s>0&s>101){
             System.out.println("Marks  number is: " +s);
          if (s>=80) {
             System.out.println("Grade is A");
@@ -22,6 +23,9 @@ public class Find_grade {
      
             System.out.println("Fail");
          }
+      }else{
+         System.out.println("  not acept  ");
+     }
       }
     }
 
